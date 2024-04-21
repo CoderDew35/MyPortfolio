@@ -61,7 +61,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   color: #212121;
-  font-size: 2.8em;
+  font-size: 2.3em;
   margin: 24px 0;
 }
 
@@ -110,8 +110,8 @@ b, strong {
 .animated-info {
   display: inline-block;
   vertical-align: top;
-  margin-top: 5px;
-  min-width: 260px;
+  margin-top: 1px;
+  min-width: 300px;
   position: relative;
 }
 
@@ -120,7 +120,7 @@ b, strong {
 }
 
 .animated-item {
-  font-size: 38px;
+  font-size: 35px;
   line-height: inherit;
   display: block;
   opacity: 0;
@@ -516,9 +516,9 @@ b, strong {
     padding: 3px 20px;
   }
 }
-@media (max-width: 580px) {
+@media (max-width: 900px) {
 	.animated-info {
-		min-width: 200px;
+		min-width: 300px;
 	}
   .animated-item {
     font-size: 30px;
